@@ -4,7 +4,8 @@ from todo.models import Todo
 
 def index(request):
     posts = Todo.objects.all().order_by('id').values()
-    return render(request, 'index.html', {"posts":posts})
+    len_post = len(posts)
+    return render(request, 'index.html', {"posts":posts, "len_post":len_post})
 
 
 def create(request):
