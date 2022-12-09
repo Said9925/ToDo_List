@@ -7,10 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Задачи</h1>
+    <h1>Задачи - {{ len_post }}</h1>
     
     {% for post in posts %}
-    <li>{{ post.id }}|{{ post.title }} - <a href="delet/{{post.id}}">Delet</a>|<a href="edit/{{post.id}}">Edit</a></li>
+    <li>{{ post.id }}|{{ post.title }} - <a href="delet/{{post.id}}">Delete</a>|<a href="edit/{{post.id}}">Edit</a></li>
     {% empty %}
     <p>Not found</p>
     {% endfor %}
