@@ -1,12 +1,14 @@
 # To Do List приложение на Django
 
-## В приложении можно:
-- создовать задачи
-- редактировать задачи 
-- удалять задачи
+## Функции:
+1. создание задачи
+2. редактирование задачи
+3. удаление задачи
+4. CRUD
+5. PEP8
 
 ---
-## Language and tools
+## Языки и инструменты использованные в данном проекте:
 
 ![Python](https://img.shields.io/badge/-Python-306998?style=for-the-badge&logo=python&logoColor=ffdc29)
 ![Django](https://img.shields.io/badge/-Django-007f1e?style=for-the-badge&logo=django)
